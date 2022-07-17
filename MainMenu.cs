@@ -10,20 +10,6 @@ public class MainMenu : MonoBehaviour
     {
         isGameOpenedFirstTime = true;
     }
-    public void PlayGame()
-    {
-        Debug.Log("PlayGame");
-        if (isGameOpenedFirstTime)
-        {
-            isGameOpenedFirstTime = false;
-            playTut();
-        }
-        else
-        {
-            playMainLevel();
-        }
-    }
-
     public void Quit()
     {
         Debug.Log("Quit");
